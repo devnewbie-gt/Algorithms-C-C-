@@ -1,3 +1,4 @@
+#include <iostream>
 #include <string>
 #include <vector>
 
@@ -9,4 +10,14 @@ int solution(int bridge_length, int weight, vector<int> truck_weights) {
 
 
     return answer;
+}
+
+void main() {
+
+    int result = 0;
+
+
+
+    std::cout << "result = " << result;
+
 }
